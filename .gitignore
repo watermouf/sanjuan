@@ -17,6 +17,7 @@ $RECYCLE.BIN/
 *.bat
 *.off
 *.py
+*.exe
 
 # Windows shortcuts
 *.lnk
