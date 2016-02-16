@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8">
 <addons>
+<addon id="plugin.galaxy.refresh" name=".REFRESH"
+	version="1.0.0" provider-name="galaxy">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
 
 <addon id="repo.water" name="waterREPO" version="1.0.0b" provider-name="w">
 	<extension point="xbmc.addon.repository" name="waterREPO">
