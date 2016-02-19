@@ -19,6 +19,7 @@ $RECYCLE.BIN/
 *.py
 *.exe
 *.xml
+*.md5
 
 # Windows shortcuts
 *.lnk
