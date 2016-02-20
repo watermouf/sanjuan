@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<addon id="repo.water.offline" name="waterREPO OFFLINE" version="1.0.1" provider-name="w">
+	<extension point="xbmc.addon.repository" name="waterREPO">
+	<dir>
+		<info compressed="false">C:\Users\Owner\Google Drive\KODI\PUBLIC\REPO\zips/addons.xml</info>
+		<checksum>C:\Users\Owner\Google Drive\KODI\PUBLIC\REPO\zips/addons.xml.md5</checksum>
+		<datadir zip="true">C:\Users\Owner\Google Drive\KODI\PUBLIC\REPO\zips/</datadir>
+	</dir>
+	<info compressed="false">C:\IMPORTANT\Documents\GitHub\sanjuan\repo\plugins</info>
+		<checksum>C:\IMPORTANT\Documents\GitHub\sanjuan\repo\plugins.hash</checksum>
+		<datadir zip="true">C:\IMPORTANT\Documents\GitHub\sanjuan\reporepo\</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform></platform>
+	</extension>
+</addon>
+
