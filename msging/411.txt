@@ -1,0 +1,18 @@
+notify = 
+version number =
+install txt = 
+wizard txt = 
+repo hash =
+repo xml =
+repo data =
+3rd repo hash =
+3rd repo xml =
+3rd repo data =
+
+youtube api = 
+tvdb api =
+trakt api = 
+tmdb api =
+
+member login =
+sql =
