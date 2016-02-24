@@ -117,8 +117,8 @@
 
 
 
-<addon id="repo.water" name="waterREPO beta" version="1.0.1" provider-name="w">
-	<extension point="xbmc.addon.repository" name="waterREPO">
+<addon id="repo.water.beta" name="waterREPO beta" version="1.0.2" provider-name="w">
+	<extension point="xbmc.addon.repository" name="waterREPO beta">
 	<dir>
 	<info compressed="false">https://raw.github.com/watermouf/sanjuan/master/BETA/plugins</info>
 		<checksum>https://raw.github.com/watermouf/sanjuan/master/BETA/plugins.hash</checksum>
