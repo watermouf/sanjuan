@@ -6,11 +6,7 @@
   name="water2"
   provider-name="water">
   <requires>
-    <import addon="xbmc.gui" />
-	  <import addon="script.favourites" />
-	  <import addon="service.skin.widgets" />
-	  <import addon="service.library.data.provider" />
-	  <import addon="script.randomandlastitems" />
+    <import addon="xbmc.gui" version="5.10.0"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
