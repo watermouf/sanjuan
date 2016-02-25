@@ -1,18 +1,30 @@
-notify = 
-version number =
-install txt = 
-wizard txt = 
-repo hash =
-repo xml =
-repo data =
-3rd repo hash =
-3rd repo xml =
-3rd repo data =
+notify = cc / buildnews or cc / waternews (but no activate)
+version number = cc / buildver
+install txt = cc / installtxt
+wizard txt = cc / wizardtxt
+repo hash = 
+repo xml = 
+repo data = 
+3rd repo hash = 
+3rd repo xml = 
+3rd repo data = 
 
-youtube api = 
-tvdb api =
-trakt api = 
-tmdb api =
+update service = cc / backupbuild or cc / water install (but no activate)
+
+yt api = 
+#tvdb api = 
+#trakt api = 
+#tmdb api = 
 
 member login =
 sql =
+
+
+-
+
+RAW:
+
+full install - 
+partial update - 
+lite update -
+
