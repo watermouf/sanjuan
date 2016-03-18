@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8">
-<addons>
 <addon id="plugin.program.super.favourites" name="MENU SYSTEM (DEV)" version="99.0.48" provider-name="water">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -31,5 +29,3 @@
       </item>
     </extension>
 </addon>
-
-</addons> 
