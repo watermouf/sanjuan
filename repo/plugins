@@ -120,4 +120,16 @@
 </addon>
 
 
+<addon id="script.supafav" version="0.0.43k" name="Auto-Menu System" provider-name="water">
+<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 </addons> 
