@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.orign2" version="0.6.1.1" name="Origin3" provider-name="wtv">
+<addon id="plugin.video.origin2" version="0.6.1.1" name="Origin3" provider-name="wtv">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.urlresolver" version="2.10.11"/>
