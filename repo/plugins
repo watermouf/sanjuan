@@ -134,9 +134,9 @@
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
   </requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
+    <extension point="xbmc.python.pluginsource" library="default.py">
     <extension point="xbmc.service" library="service.py" start="startup" />
-        <provides>executable</provides>
+        <provides>executable video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en"></summary>
