@@ -15,6 +15,23 @@
   </extension>
 </addon>
 
+<addon id="plugin.program.retrogames" name="WaterRetro" version="1.6.3" provider-name="TDW">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="browse.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>RetroGames</summary>
+        <description>RetroGames</description>
+        <disclaimer>RetroGames</disclaimer>
+    </extension>
+</addon>
+
 <addon id="plugin.program.super.favourites" name="Menu System" version="2.0.51" provider-name="">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -95,6 +112,58 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.origin2" version="0.6.1.6" name="Origin3" provider-name="Origin3">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="plugin.video.youtube" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Origin3</summary>
+		<description lang="en"></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.water" name="[COLOR black].[/COLOR]WaterTV Tools" version="1.1.6" provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.wateriptv" name="WaterIPTV" version="0.0.4" provider-name="">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="script.module.urlresolver"  version="2.1.2"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.t0mm0.common" version="2.0.0"/>
+        <import addon="script.common.plugin.cache" version="2.5.2"/>
+        <import addon="script.module.metahandler" version="2.5.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+	</extension>
+</addon>
 <addon id="plugin.video.youtube" name="YouTube" version="5.1.20.6" provider-name="bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
