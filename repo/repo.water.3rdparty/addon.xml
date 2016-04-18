@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<addon id="repo.water.3rdparty" name="waterREPO 3rd party" version="1.0.2" provider-name="water">
+<addon id="repo.water.3rdparty" name="waterREPO 3rd party" version="1.0.1" provider-name="water">
 	<extension point="xbmc.addon.repository" name="waterREPO 3rd party">
 	<dir>
 		<info compressed="false">https://googledrive.com/host/0B-bY5h-uWEgZYUN5VE5mVURYcFE/addons.xml</info>
