@@ -60,7 +60,7 @@
 
 
 
-<addon id="repo.water.3rdparty" name="w 3rd party" version="1.0.2" provider-name="water">
+<addon id="repo.water.3rdparty" name="w 3rd party" version="1.0.2a" provider-name="water">
 	<extension point="xbmc.addon.repository" name="w 3rd party">
 		<info compressed="false">https://archive.org/download/fdsafdsafdasfsdafsdafsdafdsafsdafdsafdsafsdafdsafsdafdsafdas/TEST/addons.xml</info>
 		<checksum>https://archive.org/download/fdsafdsafdasfsdafsdafsdafdsafsdafdsafdsafsdafdsafsdafdsafdas/TEST/addons.xml.md5</checksum>
