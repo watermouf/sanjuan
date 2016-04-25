@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<addon id="repo.water" name="waterREPO" version="1.0.1" provider-name="w">
-	<extension point="xbmc.addon.repository" name="waterREPO">
+<addon id="repo.water" name="water" version="1.0.1" provider-name="H²0)">
+	<extension point="xbmc.addon.repository" name="water">
 	<dir>
 		<info compressed="false">https://googledrive.com/host/0B-bY5h-uWEgZTTYzcms4MTQ5NHc/addons.xml</info>
 		<checksum>https://googledrive.com/host/0B-bY5h-uWEgZTTYzcms4MTQ5NHc/addons.xml.md5</checksum>
