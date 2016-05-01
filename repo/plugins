@@ -15,39 +15,8 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.menu" name="Menu System" version="2.0.51" provider-name="">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.metahandler" optional="true" />
-  </requires>
 
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video audio executable image</provides>
-  </extension>
-
-  <extension point="xbmc.service" library="service.py" start="startup" />
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">blank</summary>
-    <description lang="en">none</description>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website></website>
-    <source></source>
-    <email>none</email>
-  </extension>
-
-  <extension point="kodi.context.item" library="capture.py">
-      <item>
-        <label>30000</label>
-        <visible>!IsEmpty(Window(10000).Property(SF_STD_CONTEXTMENU_ENABLED))</visible>
-      </item>
-    </extension>
-</addon>
-
-<addon id="plugin.video.water" name="[COLOR black].[/COLOR]WaterTV Tools" version="1.1.6e" provider-name="H²0)">
+<addon id="plugin.video.water" name="[COLOR black].[/COLOR]WaterTV Tools" version="1.1.7" provider-name="H²0)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
