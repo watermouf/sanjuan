@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.watertvi" version="0.0.3" name="waterTV ALPHA i" provider-name="mod by waterTV OG phil65, Piers, YLLOW_DRAGON">
+<addon id="skin.watertvi" version="0.0.4" name="waterTV ALPHA i" provider-name="mod by waterTV OG phil65, Piers, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.gui" version="5.9.0"/>
 	</requires>

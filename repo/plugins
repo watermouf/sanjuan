@@ -63,7 +63,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-
+ 
 <addon id="service.galaxyupdate" name="[COLOR green]UPDATE[/COLOR] Service" version="0.0.3" provider-name="H²0)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -76,7 +76,7 @@
   </extension>
 </addon>
 
-<addon id="skin.watertv" version="0.7.5.019" name="waterTV ALPHA" provider-name="mod by waterTV OG phil65, Piers, YLLOW_DRAGON">
+<addon id="skin.watertv" version="0.7.5.019a" name="waterTV ALPHA" provider-name="mod by waterTV OG phil65, Piers, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.gui" version="5.10.0"/>
 	</requires>
@@ -145,7 +145,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.watertvi" version="0.0.3" name="waterTV ALPHA i" provider-name="mod by waterTV OG phil65, Piers, YLLOW_DRAGON">
+<addon id="skin.watertvi" version="0.0.4" name="waterTV ALPHA i" provider-name="mod by waterTV OG phil65, Piers, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.gui" version="5.9.0"/>
 	</requires>
