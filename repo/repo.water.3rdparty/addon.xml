@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<addon id="repo.water.3rdparty" name="w third party" version="1.0.2a" provider-name="H²0)">
+<addon id="repo.water.3rdparty" name="w third party" version="1.0.2b" provider-name="H²0)">
 	<extension point="xbmc.addon.repository" name="w third party">
-		<info compressed="false">https://archive.org/download/fdsafdsafdasfsdafsdafsdafdsafsdafdsafdsafsdafdsafsdafdsafdas/TEST/addons.xml</info>
-		<checksum>https://archive.org/download/fdsafdsafdasfsdafsdafsdafdsafsdafdsafdsafsdafdsafsdafdsafdas/TEST/addons.xml.md5</checksum>
+		<info compressed="false">https://archive.org/download/fdsafdsafdasfsdafsdafsdafdsafsdafdsafdsafsdafdsafsdafdsafdas/TEST/plugins</info>
+		<checksum>https://archive.org/download/fdsafdsafdasfsdafsdafsdafdsafsdafdsafdsafsdafdsafsdafdsafdas/TEST/plugins.hash</checksum>
 		<datadir zip="true">https://archive.org/download/fdsafdsafdasfsdafsdafsdafdsafsdafdsafdsafsdafdsafsdafdsafdas/TEST/temp/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
