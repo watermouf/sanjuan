@@ -1,47 +1,5 @@
 <?xml version="1.0" encoding="UTF-8">
 <addons>
-<addon id="plugin.audio.googlemusic.exp"
-       name="Google Music EXP"
-       version="1.9"
-       provider-name="ForeverGuest">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.decorator" version="3.4.0"/>
-    <import addon="script.module.requests" version="1.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>audio</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Experimental Google Music audio plugin</summary>
-    <description lang="en">Plugin that lets you play music from Google Music.</description>
-  </extension>
-</addon>
-
-
-<addon id="plugin.video.livestream" name="Livestream" version="2016.3.29" provider-name="eracknaphobia">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>   
-   <import addon="script.module.simplejson" version="3.3.0"/>    
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-        <provides>video</provides>
-  </extension>  
-  <extension point="xbmc.addon.metadata">    
-    <platform>all</platform>
-    <summary lang="en">Livestream.com Videos</summary>
-    <description lang="en">Livestream, formerly known as Mogulus, is a live streaming video platform that allows users to view and broadcast video content using a camera and a computer through the internet.</description>
-    <disclaimer lang="en"></disclaimer>
-    <language>en</language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forum.kodi.tv/showthread.php?tid=230355</forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
 
 <addon id="plugin.video.water" name="[COLOR black].[/COLOR]WaterTV Tools" version="1.1.8k" provider-name="H²0)">
   <requires>
