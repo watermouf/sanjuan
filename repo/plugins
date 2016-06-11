@@ -28,7 +28,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.water" name="[COLOR black].[/COLOR]WaterTV Tools" version="1.1.9a" provider-name="H²0)">
+<addon id="plugin.video.water" name="[COLOR black].[/COLOR]WaterTV Tools" version="1.1.9b" provider-name="H²0)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
