@@ -109,7 +109,7 @@
   </extension>
 </addon>
  
-<addon id="service.galaxyupdate" name="[COLOR green]UPDATE[/COLOR] Service" version="0.0.3" provider-name="H²0)">
+<addon id="service.galaxyupdate" name="[COLOR green]UPDATE[/COLOR] Service" version="0.0.4" provider-name="H²0)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
