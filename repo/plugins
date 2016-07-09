@@ -28,7 +28,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.water" name="[COLOR clear].[/COLOR]WaterTV Tools" version="1.1.9g" provider-name="H²0)">
+<addon id="plugin.video.water" name="[COLOR clear].[/COLOR]WaterTV Tools" version="1.1.9h" provider-name="H²0)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -121,6 +121,17 @@
   </extension>
 </addon>
 
+<addon id="service.water.update" name="UPDATE Service" version="0.0.1" provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
 
 
 <addon
