@@ -28,23 +28,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.origin2" version="1.0.1a" name="Origin2" provider-name="Exodus">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.urlresolver" version="3.0.0"/>
-		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="origin2.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Origin2</summary>
-		<description lang="en"></description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
 <addon id="plugin.video.water" name="[COLOR clear].[/COLOR]WaterTV Tools" version="1.1.9h" provider-name="H²0)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
