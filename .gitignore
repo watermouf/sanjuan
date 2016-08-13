@@ -19,7 +19,7 @@ $RECYCLE.BIN/
 *.py
 *.exe
 *.txt
-#*.xml
+*.xml
 #*.md5
 
 # Windows shortcuts
