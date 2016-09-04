@@ -3,7 +3,7 @@
 
 
 
-<addon id="plugin.video.origin2" version="1.0.8a" name="Origin2" provider-name="ORIGINZ">
+<addon id="plugin.video.origin2" version="1.0.8b" name="Origin2" provider-name="ORIGINZ">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.urlresolver" version="3.0.0" />
