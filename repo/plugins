@@ -4,7 +4,7 @@
 
 
 
-<addon id="plugin.video.water" name="[COLOR clear].[/COLOR]WaterTV Tools" version="1.1.10a" provider-name="none">
+<addon id="plugin.video.water" name="[COLOR clear].[/COLOR]WaterTV Toolss" version="1.1.10a" provider-name="none">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
