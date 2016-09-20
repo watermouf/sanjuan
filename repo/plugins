@@ -4,11 +4,11 @@
 
 
 
-<addon id="plugin.video.water" name="[COLOR clear].[/COLOR]WaterTV Toolss" version="1.1.10a" provider-name="none">
+<addon id="plugin.video.water" name="[COLOR clear].[/COLOR]WaterTV Tools" version="1.1.10b" provider-name="none">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
-	<import addon="service.autoupdate" version="0.0.1" optional="true" />
+	<import addon="service.autoclean" version="0.0.1" optional="true" />
   </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
 	<provides>executable</provides>
