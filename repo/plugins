@@ -91,10 +91,10 @@
   </extension>
 </addon>
 
-
-<addon id="service.autoclean" name="AutoClean Service" version="0.0.3" provider-name="none">
+<addon id="service.autoclean" name="AutoClean Installer" version="0.0.3a" provider-name="none">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.q"/>
   </requires>
   <extension point="xbmc.service" library="service.py" start="login" />
   <extension point="xbmc.addon.metadata">
@@ -108,6 +108,7 @@
       <disclaimer lang="en"></disclaimer>
   </extension>
 </addon>
+
 
 
 
