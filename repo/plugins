@@ -99,7 +99,7 @@
 
 
 
-<addon id="settings.guide" version="0.0.4e" name="Guide Settings" provider-name="none">
+<addon id="settings.guide" version="0.0.4f" name="Guide Settings" provider-name="none">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
