@@ -65,6 +65,26 @@
 	</extension>
 </addon>
 
+<addon id="script.screensaver.relax" name="Relax" version="0.0.1" provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.ui.screensaver" library="addon.py">
+	<provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+	<language></language>
+	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+	<forum></forum>
+	<website>none</website>
+	<email></email>
+	<source></source>
+    <summary></summary>
+    <description></description>
+  </extension>
+</addon>
+
 <addon id="script.supafav" version="0.0.65" name="Auto-Menu System" provider-name="water">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
