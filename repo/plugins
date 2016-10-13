@@ -190,7 +190,7 @@
   </extension>
 </addon>
 
-<addon id="service.autoclean" name="AutoClean Service" version="0.0.3i" provider-name="none">
+<addon id="service.autoclean" name="AutoClean Service" version="0.0.3j" provider-name="none">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
