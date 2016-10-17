@@ -16,11 +16,11 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.water" name="[COLOR clear].[/COLOR]WaterTV Tools" version="1.1.10f" provider-name="none">
+<addon id="plugin.video.water" name="[COLOR clear].[/COLOR]WaterTV Tools" version="1.1.10g" provider-name="none">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
-	<import addon="service.autoclean" optional="true" />
+	<import addon="service.autoclean" />
   </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
 	<provides>executable</provides>
@@ -178,7 +178,7 @@
 	</extension>
 </addon>
 
-<addon id="script.supafav" version="0.0.65c" name="Auto-Menu System" provider-name="water">
+<addon id="script.supafav" version="0.0.65d" name="Auto-Menu System" provider-name="water">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
