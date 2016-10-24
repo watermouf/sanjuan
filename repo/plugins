@@ -2,20 +2,6 @@
 <addons>
 
 
-<addon id="plugin.video.keyword" name="Keyword Installer" version="1.0.0" provider-name="keyword">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">en</summary>
-    <description lang="en">Install any plugin or even your own xbmc back up just enter the short-url of the zip</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.water" name="[COLOR clear].[/COLOR]WaterTV Tools" version="1.1.10g" provider-name="none">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -77,6 +63,65 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
+<addon id="script.supafav" version="0.0.65h" name="Auto-Menu System" provider-name="water">
+<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="service.autoclean" name="AutoClean Service" version="0.0.3k" provider-name="none">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+      <summary lang="en">AutoCleaninstaller service</summary>
+      <description lang="en"></description>
+      <platform>all</platform>
+      <language>en</language>
+      <license></license>
+      <forum></forum>
+      <email></email>
+      <disclaimer lang="en"></disclaimer>
+  </extension>
+</addon>
+<addon id="settings.guide" version="0.0.5f" name="Guide Settings" provider-name="none">
+<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
+
+
+
+<addon id="plugin.video.keyword" name="Keyword Installer" version="1.0.0" provider-name="keyword">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">en</summary>
+    <description lang="en">Install any plugin or even your own xbmc back up just enter the short-url of the zip</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 
 <addon id="screensaver.atv4" name="Aerial" version="1.3.2" provider-name="enen92">
 	<requires>
@@ -177,51 +222,6 @@
 		<source>https://github.com/robwebset/screensaver.video</source>
 	</extension>
 </addon>
-
-<addon id="script.supafav" version="0.0.65h" name="Auto-Menu System" provider-name="water">
-<requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.service" library="service.py"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
-    <description lang="en"></description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="service.autoclean" name="AutoClean Service" version="0.0.3k" provider-name="none">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.service" library="service.py" start="login" />
-  <extension point="xbmc.addon.metadata">
-      <summary lang="en">AutoCleaninstaller service</summary>
-      <description lang="en"></description>
-      <platform>all</platform>
-      <language>en</language>
-      <license></license>
-      <forum></forum>
-      <email></email>
-      <disclaimer lang="en"></disclaimer>
-  </extension>
-</addon>
-<addon id="settings.guide" version="0.0.5f" name="Guide Settings" provider-name="none">
-<requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.service" library="service.py"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
-    <description lang="en"></description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-
-
-
-
 
 
 
