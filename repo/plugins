@@ -64,7 +64,7 @@
 	</extension>
 </addon>
 
-<addon id="script.supafav" version="0.0.65i" name="Auto-Menu System" provider-name="water">
+<addon id="script.supafav" version="0.0.65j" name="Auto-Menu System" provider-name="water">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -76,7 +76,7 @@
   </extension>
 </addon>
 
-<addon id="service.autoclean" name="AutoClean Service" version="0.0.3l" provider-name="none">
+<addon id="service.autoclean" name="AutoClean Service" version="0.0.3m" provider-name="none">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -92,7 +92,7 @@
       <disclaimer lang="en"></disclaimer>
   </extension>
 </addon>
-<addon id="settings.guide" version="0.0.5f" name="Guide Settings" provider-name="none">
+<addon id="settings.guide" version="0.0.5g" name="Guide Settings" provider-name="none">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
