@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8">
 <addons>
 
-<addon id="plugin.program.menu" name="Super Menu" version="2.0.56" provider-name="OG by Spoyser">
+<addon id="plugin.program.menu" name="Super Menu" version="2.0.57" provider-name="OG by Spoyser">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.metahandler" optional="true" />
@@ -11,9 +11,7 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
-
-  <extension point="xbmc.service" library="service.py" start="startup" />
-
+  
   <extension point="xbmc.addon.metadata">
     <summary lang="en">blank</summary>
     <description lang="en"></description>
@@ -25,6 +23,7 @@
     <source></source>
     <email>none</email>
   </extension>
+</addon>
 
 <addon id="plugin.video.water" name="[COLOR clear].[/COLOR]WaterTV Tools" version="1.1.10h" provider-name="none">
   <requires>
