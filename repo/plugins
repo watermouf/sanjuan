@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8">
 <addons>
 
-<addon id="plugin.program.menu" name="Menu" version="2.0.56" provider-name="OG by spoyser">
+<addon id="plugin.program.menu" name="Super Menu" version="2.0.56" provider-name="OG by Spoyser">
   <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.metahandler" optional="true" />
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.metahandler" optional="true" />
+	<import addon="script.supafav"  />
   </requires>
+
   <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
+        <provides>video</provides>
   </extension>
+
+  <extension point="xbmc.service" library="service.py" start="startup" />
+
   <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
+    <summary lang="en">blank</summary>
     <description lang="en"></description>
     <platform>all</platform>
     <language>en</language>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forum.xbmc.org/showthread.php?tid=192662</forum>
+    <forum></forum>
     <website></website>
-    <source>https://github.com/spoyser/spoyser-repo/tree/master/plugin.program.super.favourites</source>
-    <email></email>
+    <source></source>
+    <email>none</email>
   </extension>
+
+  <extension point="kodi.context.item" library="capture.py">
+      <item>
+        <label>30000</label>
+        <visible>!IsEmpty(Window(10000).Property(SF_STD_CONTEXTMENU_ENABLED))</visible>
+      </item>
+    </extension>
 </addon>
 
 <addon id="plugin.video.water" name="[COLOR clear].[/COLOR]WaterTV Tools" version="1.1.10h" provider-name="none">
