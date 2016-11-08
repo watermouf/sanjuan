@@ -25,23 +25,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.origin2" version="1.0.17a" name="Origin2" provider-name="ORIGINZ">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.urlresolver" version="3.0.0" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="script.exodus.metadata" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="origin2.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Origin2</summary>
-		<description lang="en"></description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
 <addon id="plugin.video.water" name="[COLOR clear].[/COLOR]WaterTV Tools" version="1.1.10h" provider-name="none">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -122,18 +105,6 @@
     <summary></summary>
     <description></description>
   </extension>
-</addon>
-
-<addon id="script.exodus.metadata" version="1.0.0" name="Exodus Metadata" provider-name="Exodus">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the Exodus Addon</summary>
-		<description>Metadata for Exodus are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="script.supafav" version="0.0.65t" name="Auto-Menu System" provider-name="water">
