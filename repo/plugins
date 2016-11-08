@@ -87,26 +87,6 @@
 	</extension>
 </addon>
 
-<addon id="screensaver.relax" name="Relax ScreenSaver" version="0.0.1a" provider-name="">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.ui.screensaver" library="addon.py">
-	<provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-	<language></language>
-	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-	<forum></forum>
-	<website>none</website>
-	<email></email>
-	<source></source>
-    <summary></summary>
-    <description></description>
-  </extension>
-</addon>
-
 <addon id="script.supafav" version="0.0.65t" name="Auto-Menu System" provider-name="water">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -179,6 +159,26 @@
 		<summary lang="en">Apple TV 4 Screensavers in Kodi</summary>
 		<description lang="en">This screensaver addon enables the new Apple TV4 aerial screensavers in Kodi</description>
     </extension>
+</addon>
+
+<addon id="screensaver.relax" name="Relax ScreenSaver" version="0.0.1a" provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.ui.screensaver" library="addon.py">
+	<provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+	<language></language>
+	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+	<forum></forum>
+	<website>none</website>
+	<email></email>
+	<source></source>
+    <summary></summary>
+    <description></description>
+  </extension>
 </addon>
 
 <addon id="screensaver.video" name="VideoScreensaver" version="1.5.3" provider-name="robwebset">
