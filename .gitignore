@@ -22,6 +22,11 @@ $RECYCLE.BIN/
 *.md5
 *.txt
 *.old
+*.xbt
+repo.*
+plugin.*
+service.*
+script.*
 
 # Windows shortcuts
 *.lnk
