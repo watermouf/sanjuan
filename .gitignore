@@ -22,7 +22,7 @@ $RECYCLE.BIN/
 *.md5
 *.txt
 *.old
-*\ARCH*
+"repo/*"
 # Windows shortcuts
 *.lnk
 
