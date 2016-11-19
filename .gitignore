@@ -23,7 +23,7 @@ $RECYCLE.BIN/
 *.md5
 *.txt
 *.old
-
+ARC*
 # Windows shortcuts
 *.lnk
 
