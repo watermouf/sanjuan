@@ -1,5 +1,162 @@
 <?xml version="1.0" encoding="UTF-8">
 <addons>
+<addon id="plugin.program.menu" name="Super Menu" version="2.0.57" provider-name="OG by Spoyser">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.metahandler" optional="true" />
+	<import addon="script.supafav"  />
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">blank</summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <source></source>
+    <email>none</email>
+  </extension>
+</addon>
+<addon id="plugin.program.water.notifications" version="0.0.3"
+       name="Notifications" provider-name="H²0)">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary></summary>
+  	<description></description>
+  	<disclaimer></disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum></forum>
+  	<website></website>
+  	<source></source>
+  	<email></email>
+  </extension>
+</addon>
+
+<addon id="plugin.video.keyword" name="Keyword Installer" version="1.0.0a" provider-name="keyword">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">en</summary>
+    <description lang="en">Install any plugin or even your own xbmc back up just enter the short-url of the zip</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.origin2" version="1.0.20b" name="Origin2" provider-name="ORIGINZ">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.exodus.metadata" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="origin2.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Origin2</summary>
+		<description lang="en"></description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.water" name="[COLOR clear].[/COLOR]WaterTV Tools" version="1.1.10i" provider-name="none">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="service.autoclean" optional="true" />
+  </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>executable</provides>
+    </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
+<addon id="repo.water" name="waterREPO" version="1.0.4a" provider-name="H²0)">
+	<extension point="xbmc.addon.repository" name="waterREPO">
+	<dir>
+		<info compressed="false">https://raw.github.com/watermouf/sanjuan/master/repo/plugins</info>
+		<checksum>https://raw.github.com/watermouf/sanjuan/master/repo/plugins.hash</checksum>
+		<datadir zip="true">https://raw.github.com/watermouf/sanjuan/master/repo/</datadir>
+	</dir>	
+	<dir minversion="15.10.0">
+		<info compressed="false">https://raw.github.com/watermouf/sanjuan/16/repo/plugins</info>
+		<checksum>https://raw.github.com/watermouf/sanjuan/16/repo/plugins.hash</checksum>
+		<datadir zip="true">https://raw.github.com/watermouf/sanjuan/16/repo/</datadir>
+	</dir>
+	
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform></platform>
+	</extension>
+</addon>
+
+
+<addon id="script.supafav" version="0.0.66" name="Auto-Menu System" provider-name="water">
+<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="service.autoclean" name="AutoClean Service" version="0.0.4k" provider-name="none">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+      <summary lang="en">AutoCleaninstaller service</summary>
+      <description lang="en"></description>
+      <platform>all</platform>
+      <language>en</language>
+      <license></license>
+      <forum></forum>
+      <email></email>
+      <disclaimer lang="en"></disclaimer>
+  </extension>
+</addon>
+<addon id="settings.guide" version="0.0.5i" name="Guide Settings" provider-name="none">
+<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon
   id="skin.confluence"
   version="3.0.0"
