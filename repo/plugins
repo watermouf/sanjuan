@@ -131,10 +131,9 @@
   </extension>
 </addon>
 
-<addon id="service.autoclean" name="AutoClean Service" version="0.0.4l" provider-name="none">
+<addon id="service.autoclean" name="AutoClean Service" version="0.0.4m" provider-name="none">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="plugin.video.ustvnow.tva" />
   </requires>
   <extension point="xbmc.service" library="service.py" start="login" />
   <extension point="xbmc.addon.metadata">
