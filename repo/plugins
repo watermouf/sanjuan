@@ -50,7 +50,7 @@
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Origin2</summary>
+		<summary lang="en">Origin2 </summary>
 		<description lang="en"></description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
 		<platform>all</platform>
@@ -123,7 +123,7 @@
       <disclaimer lang="en"></disclaimer>
   </extension>
 </addon>
-<addon id="settings.guide" version="0.0.5i" name="Guide Settings" provider-name="none">
+<addon id="settings.guide" version="0.0.5i" name="Guide Settings" provider-name="null">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
