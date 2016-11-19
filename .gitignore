@@ -22,6 +22,8 @@ $RECYCLE.BIN/
 *.xml
 *.md5
 *.old
+
+ARC*
 service.*
 script.*
 repo.*
