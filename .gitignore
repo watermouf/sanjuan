@@ -20,7 +20,7 @@ $RECYCLE.BIN/
 *.exe
 *.txt
 *.xml
-#*.md5
+*.md5
 *.old
 
 # Windows shortcuts

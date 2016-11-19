@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="service.autoclean" name="Auto Clean" version="0.0.2" provider-name="water">
+<addon id="service.autoclean" name="AutoClean Service" version="0.0.4k" provider-name="none">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
-  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.service" library="service.py" start="login" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
-    <description lang="en"></description>
-    <platform>all</platform>
+      <summary lang="en">AutoCleaninstaller service</summary>
+      <description lang="en"></description>
+      <platform>all</platform>
+      <language>en</language>
+      <license></license>
+      <forum></forum>
+      <email></email>
+      <disclaimer lang="en"></disclaimer>
   </extension>
 </addon>
- 
