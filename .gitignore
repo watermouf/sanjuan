@@ -21,6 +21,7 @@ $RECYCLE.BIN/
 *.txt
 *.xml
 #*.md5
+*.old
 
 # Windows shortcuts
 *.lnk
