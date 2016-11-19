@@ -73,11 +73,26 @@
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Origin2 </summary>
+		<summary lang="en">Origin2</summary>
 		<description lang="en"></description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
 		<platform>all</platform>
 	</extension>
+</addon>
+<addon id="plugin.video.water" name="[COLOR clear].[/COLOR]WaterTV Tools" version="1.1.10i" provider-name="none">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="service.autoclean" optional="true" />
+  </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>executable</provides>
+    </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 
@@ -103,6 +118,17 @@
 </addon>
 
 
+<addon id="script.supafav" version="0.0.66" name="Auto-Menu System" provider-name="water">
+<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
 
 <addon id="service.autoclean" name="AutoClean Service" version="0.0.4k" provider-name="none">
   <requires>
@@ -120,7 +146,7 @@
       <disclaimer lang="en"></disclaimer>
   </extension>
 </addon>
-<addon id="settings.guide" version="0.0.5i" name="Guide Settings" provider-name="null">
+<addon id="settings.guide" version="0.0.5i" name="Guide Settings" provider-name="none">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -134,11 +160,11 @@
 
 <addon
   id="skin.confluence"
-  version="4.0.0"
+  version="3.0.0"
   name="Confluence"
   provider-name="Jezz_X, Team Kodi">
   <requires>
-	<import addon="xbmc.gui" version="5.9.0" optional="true"/>
+	<import addon="xbmc.gui" version="5.10.0" optional="true"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
@@ -324,9 +350,9 @@
 </addon>
 
 <addon
-  id="skin.water2" version="3.1.7" name="waterTV" provider-name="H20)">
+  id="skin.water2" version="3.1.7b" name="waterTV" provider-name="H20)">
   <requires>
-    <import addon="xbmc.gui" version="5.9.0"/>
+    <import addon="xbmc.gui" version="5.12.0"/>
 	<import addon="plugin.video.water" />
   </requires>
   <extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
@@ -345,7 +371,76 @@
   </extension>
 </addon>
 
-<addon id="skin.watertv" version="0.8.0.0" name="waterTV ALPHA" provider-name="mod by waterTV OG phil65, Piers, YLLOW_DRAGON">
+<addon id="skin.watertv" version="0.7.5.019c" name="waterTV ALPHA" provider-name="mod by waterTV OG phil65, Piers, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.gui" version="5.10.0"/>
+	</requires>
+	<extension
+		point="xbmc.gui.skin"
+		defaultthemename="Textures.xbt"
+		debugging="false"
+		effectslowdown="1.0">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="bg_BG">Estuary облик от phil65 и Piers. (стандартния облик на Kodi)</summary>
+		<summary lang="cs_CZ">Estary skin od phil65 a Piers. (Výchozí skin Kodi)</summary>
+		<summary lang="de_DE">Estuary skin by phil65 and Piers. (Kodi Standardskin)</summary>
+		<summary lang="en_GB">Estuary skin by phil65 and Piers. (Kodi's default skin)</summary>
+		<summary lang="en_US">Estuary skin by phil65 and Piers. (Kodi's default skin)</summary>
+		<summary lang="fr_FR">Estuary, un habillage par phil65 et Piers (habillage d'origine de Kodi).</summary>
+		<summary lang="hr_HR">Estuary presvlaka autora phil65 i Piersa. (uobičajena Kodi presvlaka)</summary>
+		<summary lang="hu_HU">Estuary felszín. Készítette phil65 és Piers. (Kodi alapértelmezett felszín)</summary>
+		<summary lang="it_IT">Skin Estuary da phil65 e Piers. (Skin predefinita di Kodi)</summary>
+		<summary lang="lt_LT">Estuary teminė išvaizda, kurią sukūrė phil65 ir Piers. (Numatytoji Kodi teminė išvaizda)</summary>
+		<summary lang="ms_MY">Kulit Estuary oleh phil65 dan rakan-rakan. (Kulit lalai Kodi)</summary>
+		<summary lang="nl_NL">Estuary skin door phil65 en Piers. (Kodi's standaard skin)</summary>
+		<summary lang="pt_BR">Skin Esturay por phil65 e Piers. (Skin padrão do Kodi)</summary>
+		<summary lang="sk_SK">Vzhľad Estuary, vytvorili phil65 a Piers. (predvolený vzhľad pre Kodi)</summary>
+		<summary lang="sr_RS@latin">Maska Estuary autora phil65 i Piers. (Podrazumevana Kodi maska)</summary>
+		<summary lang="sv_SE">Estuary-skin av phil65 och Piers. (Kodi's standard-skin)</summary>
+		<summary lang="tr_TR">Estuary dış görünümü. phil65 ve Piers (Kodi'nin varsayılan dış görünümü)</summary>
+		<description lang="bg_BG">Estuary е стандартният облик на Kodi 17 и по-новите версии. Целта е да се улеснят хората които се сблъскват за първи път с Kodi.</description>
+		<description lang="cs_CZ">Estuary je výchozí skin pro Kodi 17.0 a výše. Jeho snahou je zjednodušit používání Kodi pro nové uživatele.</description>
+		<description lang="de_DE">Estuary ist der Standardskin für Kodi 17.0 und höher. Ziel war es, einen einfach zu bedienenden Skin für neue Kodi-User zu entwickeln.</description>
+		<description lang="en_GB">Estuary is the default skin for Kodi 17.0 and above. It attempts to be easy for first time Kodi users to understand and use.</description>
+		<description lang="en_US">Estuary is the default skin for Kodi 17.0 and above. It attempts to be easy for first time Kodi users to understand and use.</description>
+		<description lang="fr_FR">Estuary est l'habillage d'origine pour Kodi 17.0 et supérieur. Il est facile à comprendre et à utiliser pour les utilisateurs novices de Kodi..</description>
+		<description lang="hr_HR">Estuary je uobičajena presvlaka za Kodi 17.0 i novije inačice. To je pokušaj da se novim korisnicima olakša prvo korištenje i kasnija upotreba Kodija.</description>
+		<description lang="hu_HU">Estuary az alapértelmezett felszín a 17.0 és újabb Kodi kiadásokban.  Könnyen kezelhető újonc Kodi felhasználóknak is.</description>
+		<description lang="it_IT">Estuary è la skin predefinita di Kodi 17.0 e successivi. Cerca di essere facile da capire e usare per i nuovi utenti di Kodi.</description>
+		<description lang="lt_LT">Estuary yra numatytoji Kodi 17.0 ir aukštesnių versijų teminė išvaizda. Jos tikslas tapti lengvai suprantama ir naudojama naujiems Kodi vartotojams.</description>
+		<description lang="ms_MY">Estuary ialah kulit lalai untuk Kodi 17.0 dan ke atas. Kulit yang mudah digunakan buat pengguna Kodi kali pertama untuk memahami dan menggunakannya.</description>
+		<description lang="nl_NL">Estuary is de standaard skin voor Kodi 17.0 en hoger. Het tracht eenvoudig te begrijpen en te gebruiken te zijn voor beginnende Kodi gebruikers.</description>
+		<description lang="pt_BR">Estuary é a skin padrão para o Kodi 17.0 e acima. Objetiva ser fácil para usuários que iniciam no Kodi pela primeira vez, facilitando aprendizagem de uso do mesmo.</description>
+		<description lang="sk_SK">Estuary je predvolený vzhľad pre Kodi 17.0 a vyššie. Pokúša sa byť pre prvotných používateľov Kodi jednoduchým na pochopenie a používanie.</description>
+		<description lang="sv_SE">Estuary är standard-skin för Kodi 17.0 och uppåt. Det försöker att vara lättförståeligt för förstagångsanvändare av Kodi att förstå och använda.</description>
+		<description lang="tr_TR">Estuary Kodi 17.0 ve yukarısı için varsayılan dış görünümdür. İlk kez Kodi kullananlar için anlaşılması ve kullanımı kolaydır.</description>
+		<disclaimer lang="bg_BG">Estuary е стандартният облик на Kodi. Премахването му може да предизвика проблеми</disclaimer>
+		<disclaimer lang="cs_CZ">Estuary je výchozí skin pro Kodi, jeho odebráním může dojít k potížím.</disclaimer>
+		<disclaimer lang="de_DE">Estuary ist der Standardskin von Kodi. Ein Entfernen des Skins kann Probleme verursachen.</disclaimer>
+		<disclaimer lang="en_GB">Estuary is the default skin for Kodi, removing it may cause issues</disclaimer>
+		<disclaimer lang="en_US">Estuary is the default skin for Kodi, removing it may cause issues</disclaimer>
+		<disclaimer lang="fi_FI">Estuary on Kodin oletusteema, sen poisto voi aiheuttaa ongelmia</disclaimer>
+		<disclaimer lang="fr_FR">Estuary est l'habillage d'origine de Kodi, le retirer peut créer des problèmes</disclaimer>
+		<disclaimer lang="hr_HR">Estuary je uobičajena presvlaka za Kodi, njegovim uklanjanjem može uzrokovati poteškoće</disclaimer>
+		<disclaimer lang="hu_HU">Az Estuary az alapértelmezett Kodi felszín. Eltávolítása problémákat okozhat.</disclaimer>
+		<disclaimer lang="it_IT">Estuary è la skin predefinita di Kodi, rimuoverla potrebbe causare problemi</disclaimer>
+		<disclaimer lang="lt_LT">Estuary yra numatytoji Kodi teminė išvaizda, jos pašalinimas gali sukelti problemų</disclaimer>
+		<disclaimer lang="ms_MY">Estuary ialah kulit lalai Kodi, mengubahnya boleh menimbulkan isu.</disclaimer>
+		<disclaimer lang="nl_NL">Estuary is de standaard skin voor Kodi, het verwijderen van Estuary kan leiden tot problemen.</disclaimer>
+		<disclaimer lang="pt_BR">Estuary é a skin padrão para o Kodi, removendo-a pode causar problemas</disclaimer>
+		<disclaimer lang="sk_SK">Estuary je predvolený vzhľad pre Kodi, jeho odstránenie môže spôsobiť problémy</disclaimer>
+		<disclaimer lang="sr_RS@latin">Estuary je podrazumevana maska za Kodi, uklanjanje može izazvati probleme</disclaimer>
+		<disclaimer lang="tr_TR">Estuary Kodi için varsayılan dış görünümdür, kaldırmak sorunlara yol açabilir</disclaimer>
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<forum>http://forum.kodi.tv/</forum>
+		<source>https://github.com/xbmc/skin.estuary/</source>
+	</extension>
+</addon>
+
+<addon id="skin.watertvi" version="0.0.4" name="waterTV ALPHA i" provider-name="mod by waterTV OG phil65, Piers, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.gui" version="5.9.0"/>
 	</requires>
@@ -417,105 +512,8 @@
 
 
 
-<addon id="screensaver.atv4" name="Aerial" version="1.3.2" provider-name="enen92">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.ui.screensaver" library="atv.py" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<source>https://github.com/enen92/screensaver.atv4</source>
-		<forum>http://forum.kodi.tv/showthread.php?tid=246655</forum>
-		<summary lang="en">Apple TV 4 Screensavers in Kodi</summary>
-		<description lang="en">This screensaver addon enables the new Apple TV4 aerial screensavers in Kodi</description>
-    </extension>
-</addon>
 
-<addon id="screensaver.relax" name="Relax ScreenSaver" version="0.0.1a" provider-name="">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.ui.screensaver" library="addon.py">
-	<provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-	<language></language>
-	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-	<forum></forum>
-	<website>none</website>
-	<email></email>
-	<source></source>
-    <summary></summary>
-    <description></description>
-  </extension>
-</addon>
 
-<addon id="screensaver.video" name="VideoScreensaver" version="1.5.3" provider-name="robwebset">
-	<requires>
-		<import addon="xbmc.python" version="2.14.0"/>
-		<import addon="script.module.simplejson" version="3.3.0"/>
-	</requires>
-	<extension point="xbmc.ui.screensaver" library="default.py"/>
-  	<extension point="xbmc.python.script" library="screensaver.py"/>
-	<extension point="xbmc.service" library="service.py" start="login"/>
-	<extension point="xbmc.python.pluginsource" library="plugin.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="bg">Скрийнсейвър, който възпроизвежда видео файлове</summary>
-		<summary lang="de">Bildschirmschoner, der eine Videodatei abspielt</summary>
-		<summary lang="el">Προφύλαξη οθόνης αναπαράγει βίντεο</summary>
-		<summary lang="en">Screensaver that plays a video file</summary>
-		<summary lang="en_NZ">Screensaver that plays a video file</summary>
-		<summary lang="en_US">Screensaver that plays a video file</summary>
-		<summary lang="es">Salva pantalla que reproduce un archivo de video</summary>
-		<summary lang="fr">Économiseur d'écran jouant un fichier vidéo</summary>
-		<summary lang="fr_CA">Économiseur d'écran lisant un fichier vidéo</summary>
-		<summary lang="gl">Protector de pantalla que reproduce un vídeo</summary>
-		<summary lang="he">שומר מסך המנגן קובץ וידאו</summary>
-		<summary lang="hr">Čuvar zaslona koji reproducira video datoteke</summary>
-		<summary lang="it">Salvaschermo che esegue un file video</summary>
-		<summary lang="ko">비디오 파일 재생 화면 보호기</summary>
-		<summary lang="lt">Ekrano užsklanda, kuri atkuria vaizdo failą</summary>
-		<summary lang="nl">Schermbeveiliging die een videobestand afspeelt</summary>
-		<summary lang="pl">Wygaszacz ekranu odtwarzający plik wideo</summary>
-		<summary lang="pt">Protetor de ecrã que reproduz um ficheiro de vídeo</summary>
-		<summary lang="pt_BR">Protetor de Tela que reproduz arquivos de vídeos.</summary>
-		<summary lang="ro">Protector ecran care redă un fișier video</summary>
-		<summary lang="sv">Skärmsläckare som spelar upp en film</summary>
-		<summary lang="tr">Video dosyası oynatan ekran koruyucu</summary>
-		<summary lang="zh">播放视频文件的屏幕保护</summary>
-		<description lang="bg">Възпроизвежда видео файлове при стартиране на скрийнсейвър. Можете да изберете даден видео файл или да ползвате някой от вградените.</description>
-		<description lang="de">Spielt beim Start des Bildschirmschoners ein Video ab. Dies kann ein benutzerdefiniertes oder eines der eingebauten Videos sein</description>
-		<description lang="el">Αναπαράγει ένα βίντεο όταν ξεκινάει η προφύλαξη οθόνης. Αυτό μπορεί να είναι ένα δικό σας βίντεο, ή ένα από τα ενσωματωμένα.</description>
-		<description lang="en">Plays a video when the screensaver starts, this can be a custom video or one of the built in videos</description>
-		<description lang="en_NZ">Plays a video when the screensaver starts, this can be a custom video or one of the built in videos</description>
-		<description lang="en_US">Plays a video when the screensaver starts, this can be a custom video or one of the built in videos</description>
-		<description lang="es">Reproduce un vídeo cuando el salva pantallas inicia, este vídeo puede ser un vídeo personalizado o uno de los vídeos pre cargados.</description>
-		<description lang="fr">Cette extension joue une vidéo quand l'économiseur d'écran démarre. Cela peut-être une vidéo personnelle ou une des vidéos déjà pré-inclues.</description>
-		<description lang="fr_CA">Lit un fichier vidéo au démarrage de l'économiseur d'écran, pouvant être une vidéo personnalisée ou une des vidéos intégrées</description>
-		<description lang="gl">Reproduce un vídeo ao activar o protector de pantalla, pode ser un vídeo personalizado ou un dos predefinidos</description>
-		<description lang="he">משחק וידאו כאשר שומר המסך מתחיל, זה יכול להיות וידאו מותאם אישית או אחד שנבנה בקטעי וידאו</description>
-		<description lang="hr">Reproducira video snimke kada se čuvar zaslona pokrene, to može biti prilagođena video snimmka ili neka od ugrađenih video snimaka.</description>
-		<description lang="it">Esegui un video quando il salvaschermo inizia, può essere un video personalizzato o uno video integrato</description>
-		<description lang="ko">화면 보호기가 시작될 때 사용자 비디오 또는 내장 비디오를 재생합니다</description>
-		<description lang="lt">Atkuria vaizdo įrašą, kai įjungiama ekrano užsklanda. Tai gali būti savas  ar vienas iš integruotų vaizdo įrašų</description>
-		<description lang="nl">Speelt een video wanneer de schermbeveiliger start, dit kan een vooraf ingestelde video zijn of één van de ingebouwde video's</description>
-		<description lang="pl">Wygaszacz ekranu, który po uruchomieniu odtwarza wbudowany bądź niestandardowy plik wideo.</description>
-		<description lang="pt">Reproduz um vídeo quando o protetor de ecrã inicia, este pode ser um vídeo personalizado ou um dos vídeos embutidos</description>
-		<description lang="pt_BR">Reproduza um vídeo quando iniciar a proteção de tela, podes setar uma vídeo customizado ou um dos vídeos pré-existentes que podem ser transferidos via ajustes do addon.</description>
-		<description lang="sv">Spelar en film när skärmsläckaren startar, det kan vara en egen film eller någon av de inbyggda filmerna</description>
-		<description lang="tr">Ekran koruyucu başladığında bir video oynatır, bu özel bir video veya yerleşik videolardan biri olabilir</description>
-		<description lang="zh">屏幕保护时播放视频，可以是自定义视频或内建视频</description>
-		<language></language>
-		<platform>all</platform>
-		<license>See LICENSE.txt</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=292708</forum>
-		<source>https://github.com/robwebset/screensaver.video</source>
-	</extension>
-</addon>
 
 
 
