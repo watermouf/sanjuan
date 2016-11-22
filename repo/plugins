@@ -351,9 +351,9 @@
 </addon>
 
 <addon
-  id="skin.water2" version="3.1.7a" name="waterTV" provider-name="null">
+  id="skin.water2" version="3.1.7" name="waterTV" provider-name="null">
   <requires>
-    <import addon="xbmc.gui" version="5.10.0"/>
+    <import addon="xbmc.gui" version="5.9.0"/>
 	<import addon="plugin.video.water" />
   </requires>
   <extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
