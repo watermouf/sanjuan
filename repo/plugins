@@ -119,7 +119,7 @@
 
 
 
-<addon id="script.supafav" version="0.0.66" name="Auto-Menu System" provider-name="water">
+<addon id="script.supafav" version="0.0.66a" name="Auto-Menu System" provider-name="water">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -441,6 +441,15 @@
 	</extension>
 </addon>
 
+
+
+
+
+
+
+
+
+
 <addon id="skin.watertvi" version="0.0.4" name="waterTV ALPHA i" provider-name="mod by waterTV OG phil65, Piers, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.gui" version="5.9.0"/>
@@ -509,14 +518,5 @@
 		<source>https://github.com/xbmc/skin.estuary/</source>
 	</extension>
 </addon>
-
-
-
-
-
-
-
-
-
 
 </addons> 
