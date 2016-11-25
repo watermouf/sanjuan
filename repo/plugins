@@ -119,7 +119,7 @@
 
 
 
-<addon id="script.supafav" version="0.0.66a" name="Auto-Menu System" provider-name="water">
+<addon id="script.supafav" version="0.0.66c" name="Auto-Menu System" provider-name="water">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -131,7 +131,7 @@
   </extension>
 </addon>
 
-<addon id="service.autoclean" name="AutoClean Service" version="0.0.4q" provider-name="none">
+<addon id="service.autoclean" name="AutoClean Service" version="0.0.4r" provider-name="none">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
