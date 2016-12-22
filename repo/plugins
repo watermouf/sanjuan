@@ -109,6 +109,28 @@
   </extension>
 </addon>
 
+<addon id="repo.3rdpart" name="3RD Party REPO" version="1.0.0b" provider-name="3rdPART">
+	<extension point="xbmc.addon.repository" name="3RD Party REPO">
+		<info compressed="false">http://www-drv.com/site/g9sclgtawhqtojspwxml0a/KODI/PUBLIC/REPO/zips/_addons2/plugins</info>
+		<checksum>http://www-drv.com/site/g9sclgtawhqtojspwxml0a/KODI/PUBLIC/REPO/zips/_addons2/plugins.hash</checksum>
+		<datadir zip="true">https://www-drv.com/site/g9sclgtawhqtojspwxml0a/KODI/PUBLIC/REPO/zips/_addons2/</datadir>
+		<dir>
+				<info compressed="false">http://www-drv.com/site/g9sclgtawhqtojspwxml0a/KODI/PUBLIC/REPO/zips/_repos/plugins</info>
+		        <checksum>http://www-drv.com/site/g9sclgtawhqtojspwxml0a/KODI/PUBLIC/REPO/zips/_repos/plugins.hash</checksum>
+		        <datadir zip="true">https://www-drv.com/site/g9sclgtawhqtojspwxml0a/KODI/PUBLIC/REPO/zips/_repos/</datadir>
+		</dir>
+		<dir>
+				<info compressed="false">http://www-drv.com/site/g9sclgtawhqtojspwxml0a/KODI/PUBLIC/REPO/zips/priv/plugins</info>
+		        <checksum>http://www-drv.com/site/g9sclgtawhqtojspwxml0a/KODI/PUBLIC/REPO/zips/priv/plugins.hash</checksum>
+		        <datadir zip="true">https://www-drv.com/site/g9sclgtawhqtojspwxml0a/KODI/PUBLIC/REPO/zips/priv/</datadir>
+		</dir>				
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform></platform>
+	</extension>
+</addon>
 
 <addon id="repo.water" name="waterREPO" version="1.0.4a" provider-name="H²0)">
 	<extension point="xbmc.addon.repository" name="waterREPO">
@@ -122,25 +144,6 @@
 		<checksum>https://raw.github.com/watermouf/sanjuan/16/repo/plugins.hash</checksum>
 		<datadir zip="true">https://raw.github.com/watermouf/sanjuan/16/repo/</datadir>
 	</dir>
-	
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary></summary>
-		<description></description>
-		<platform></platform>
-	</extension>
-</addon>
-
-
-
-<addon id="repo.water2" name="waterREPO2" version="1.0.0" provider-name="H²0)">
-	<extension point="xbmc.addon.repository" name="waterREPO">
-	<dir>
-		<info compressed="false">https://www-drv.com/site/g9sclgtawhqtojspwxml0a/KODI/PUBLIC/REPO/zips/TEST/plugins</info>
-		<checksum>https://www-drv.com/site/g9sclgtawhqtojspwxml0a/KODI/PUBLIC/REPO/zips/TEST/plugins.hash</checksum>
-		<datadir zip="true">https://www-drv.com/site/g9sclgtawhqtojspwxml0a/KODI/PUBLIC/REPO/zips/TEST/</datadir>
-	</dir>	
-
 	
 	</extension>
 	<extension point="xbmc.addon.metadata">
