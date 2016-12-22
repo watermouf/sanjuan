@@ -133,7 +133,7 @@
 
 
 
-<addon id="repo.water" name="waterREPO2" version="1.0.0" provider-name="H²0)">
+<addon id="repo.water2" name="waterREPO2" version="1.0.0" provider-name="H²0)">
 	<extension point="xbmc.addon.repository" name="waterREPO">
 	<dir>
 		<info compressed="false">https://www-drv.com/site/g9sclgtawhqtojspwxml0a/KODI/PUBLIC/REPO/zips/TEST/plugins</info>
