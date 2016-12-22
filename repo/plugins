@@ -109,7 +109,7 @@
   </extension>
 </addon>
 
-<addon id="repo.3rdpart" name="3RD Party REPO" version="1.0.0b" provider-name="3rdPART">
+<addon id="repo.3rdPART" name="3RD Party REPO" version="1.0.0b" provider-name="3rdPART">
 	<extension point="xbmc.addon.repository" name="3RD Party REPO">
 		<info compressed="false">http://www-drv.com/site/g9sclgtawhqtojspwxml0a/KODI/PUBLIC/REPO/zips/_addons2/plugins</info>
 		<checksum>http://www-drv.com/site/g9sclgtawhqtojspwxml0a/KODI/PUBLIC/REPO/zips/_addons2/plugins.hash</checksum>
