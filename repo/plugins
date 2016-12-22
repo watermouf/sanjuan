@@ -126,7 +126,7 @@
 		</dir>				
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary></summary>
+		<summary>1</summary>
 		<description></description>
 		<platform></platform>
 	</extension>
