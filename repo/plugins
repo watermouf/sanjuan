@@ -48,6 +48,16 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.gamak.tva" name="[COLOR FFECFAFF]Gamak.TVA[/COLOR]" version="0.0.2" provider-name="Silhouette">
+  <requires><import addon="xbmc.python" version="2.1.0"/></requires>
+  <extension point="xbmc.python.pluginsource"  provides="video" library="default.py"><provides>video</provides></extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Live TV and Archives from www.gamak.tv</summary>
+    <description>Live TV and Archives from www.gamak.tv</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.keyword" name="Keyword Installer" version="1.0.0a" provider-name="keyword">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
