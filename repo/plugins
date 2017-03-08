@@ -72,7 +72,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.origin2" version="2.0.0a" name="Origin2" provider-name="ORIGINZ">
+<addon id="plugin.video.origin2" version="2.1.1" name="Origin2" provider-name="ORIGINZ">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.urlresolver" version="3.0.0" />
