@@ -580,6 +580,531 @@
 
 
 
+<addon id="plugin.iptv.ccloud"
+       name="cCloud"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.cricbox"
+       name="Cricbox"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.cricfree"
+       name="CriceFree"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.crichd"
+       name="CriceHD"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.filmon"
+       name="FilmOn"
+       version="0.0.1"
+       provider-name="none">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.HDfree"
+       name="HDfree"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.ibrod"
+       name="iBrod"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.liveonline247"
+       name="liveonline247"
+       version="0.0.1"
+       provider-name="none">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.m3u"
+       name="M3UList"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.mamahd"
+       name="mamaHD"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.ondemand"
+       name="OnDemand"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.playlist1"
+       name="PlayListLoader1"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.playlist2"
+       name="PlayListLoader2"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.playlist3"
+       name="PlayListLoader3"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.playlist4"
+       name="PlayListLoader4"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.playlist5"
+       name="PlayListLoader5"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.shadownet"
+       name="ShadowNET"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.sports4u"
+       name="Sports4u"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.stream2watch"
+       name="Stream2Watch"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.streamhunter"
+       name="StreamHunter"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.streamliveto"
+       name="StreamLive.To"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.tvone"
+       name="TVone"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.ukturk"
+       name="UKTurk"
+       version="0.0.1"
+       provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.uktv"
+       name="UKTV"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.uktv.HD"
+       name="UKTV"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.iptv.ustvnow"
+       name="USTVnow"
+       version="0.0.1"
+       provider-name="water">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
+
+
+
 
 
 
