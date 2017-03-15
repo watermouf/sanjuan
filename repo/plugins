@@ -48,42 +48,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.stream.vaughnlive.tv"
-       name="Vaughn Live"
-       version="0.1.8iv1"
-       provider-name="The[COLOR tan]Highway[/COLOR], Shani, konbon">
-  <requires>
-  	<import addon="xbmc.python" version="2.1.0"/>
-  	<import addon="script.module.addon.common" />
-  	<import addon="script.common.plugin.cache" />
-  	<import addon="script.module.t0mm0.common" optional="true" />
-	<import addon="inputstream.rtmp" optional="true" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-  	<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-  	<summary>For PC with a Default Browser.  Streams are now playable in KODI (XBMC). Thanks to konbon for the new artwork.</summary>
-  	<description>Used to browse the site of Live Streams and allow you to launch your OS's default browser via XBMC's context menu(s) so to visit the channel's page, embed video, or embed chat.  Streams are now playable in KODI (XBMC).</description>
-  	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
-  	<language>en</language>
-  	<platform>all</platform>
-    <forum></forum>
-    <website></website>
-    <source></source>
-    <email></email>
-  </extension>
-</addon>
-<addon id="plugin.video.gamak.tva" name="[COLOR FFECFAFF]Gamak.TVA[/COLOR]" version="0.0.2" provider-name="Silhouette">
-  <requires><import addon="xbmc.python" version="2.1.0"/></requires>
-  <extension point="xbmc.python.pluginsource"  provides="video" library="default.py"><provides>video</provides></extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Live TV and Archives from www.gamak.tv</summary>
-    <description>Live TV and Archives from www.gamak.tv</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.keyword" name="Keyword Installer" version="1.0.0a" provider-name="keyword">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -94,63 +58,6 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">en</summary>
     <description lang="en">Install any plugin or even your own xbmc back up just enter the short-url of the zip</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.origin2" version="2.1.1" name="Origin2" provider-name="ORIGINZ">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.urlresolver" version="3.0.0" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="script.exodus.metadata" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="origin2.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Origin2</summary>
-		<description lang="en"></description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-<addon id="plugin.video.playklub"
-       name="[COLOR gold].THE PLAYERS KLUB BETA[/COLOR]"
-       version="1.2d"
-       provider-name="players">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Players Klub</summary>
-    <language>en</language>
-    <description lang="en">Players Klub - Live TV / PPV / Sports / Kids / Movies / Entertainment at an affordable price for all.</description>
-     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.ufc-finest" name="[B][COLOR red]UFC[/COLOR][/B] [B][COLOR white]Finest[/COLOR][/B]" version="1.4" provider-name="@DetectiveKodi">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.urlresolver"  version="2.1.2"/>
-    <import addon="script.module.liveresolver" version="0.1.24"/>
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-
-    <import addon="script.module.metahandler" version="2.5.1"/>
-    <import addon="plugin.video.youtube" optional="true" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">UFC Finest</summary>
-    <description lang="en">The author of this addon does not own nor is affiliated in any way with the content providers , But is providing a 3rd party way to give access to all links provided</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -471,6 +378,99 @@
 </addon>
 
 
+
+<addon id="plugin.stream.vaughnlive.tv"
+       name="Vaughn Live"
+       version="0.1.8iv1"
+       provider-name="The[COLOR tan]Highway[/COLOR], Shani, konbon">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" />
+  	<import addon="script.common.plugin.cache" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+	<import addon="inputstream.rtmp" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>For PC with a Default Browser.  Streams are now playable in KODI (XBMC). Thanks to konbon for the new artwork.</summary>
+  	<description>Used to browse the site of Live Streams and allow you to launch your OS's default browser via XBMC's context menu(s) so to visit the channel's page, embed video, or embed chat.  Streams are now playable in KODI (XBMC).</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    <forum></forum>
+    <website></website>
+    <source></source>
+    <email></email>
+  </extension>
+</addon>
+<addon id="plugin.video.gamak.tva" name="[COLOR FFECFAFF]Gamak.TVA[/COLOR]" version="0.0.2" provider-name="Silhouette">
+  <requires><import addon="xbmc.python" version="2.1.0"/></requires>
+  <extension point="xbmc.python.pluginsource"  provides="video" library="default.py"><provides>video</provides></extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Live TV and Archives from www.gamak.tv</summary>
+    <description>Live TV and Archives from www.gamak.tv</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.origin2" version="2.1.1" name="Origin2" provider-name="ORIGINZ">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.exodus.metadata" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="origin2.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Origin2</summary>
+		<description lang="en"></description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="plugin.video.playklub"
+       name="[COLOR gold].THE PLAYERS KLUB BETA[/COLOR]"
+       version="1.2d"
+       provider-name="players">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Players Klub</summary>
+    <language>en</language>
+    <description lang="en">Players Klub - Live TV / PPV / Sports / Kids / Movies / Entertainment at an affordable price for all.</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ufc-finest" name="[B][COLOR red]UFC[/COLOR][/B] [B][COLOR white]Finest[/COLOR][/B]" version="1.4" provider-name="@DetectiveKodi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.module.liveresolver" version="0.1.24"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="plugin.video.youtube" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">UFC Finest</summary>
+    <description lang="en">The author of this addon does not own nor is affiliated in any way with the content providers , But is providing a 3rd party way to give access to all links provided</description>
+    <platform>all</platform>
+  </extension>
+</addon>
 
 
 
