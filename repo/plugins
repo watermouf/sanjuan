@@ -89,7 +89,7 @@
 		<info compressed="false">https://raw.github.com/watermouf/sanjuan/16/repo/plugins</info>
 		<checksum>https://raw.github.com/watermouf/sanjuan/16/repo/plugins.hash</checksum>
 		<datadir zip="true">https://raw.github.com/watermouf/sanjuan/16/repo/</datadir>
-	</dir>
+	</dir>	
 	
 	</extension>
 	<extension point="xbmc.addon.metadata">
