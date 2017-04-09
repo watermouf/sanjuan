@@ -391,5 +391,27 @@
   </extension>
 </addon>
 
+<addon id="repo.3rdPART.beta" name="3RD Party BETA" version="1.0.2" provider-name="3rdPART">
+	<extension point="xbmc.addon.repository" name="3RD Party BETA">
+		<info compressed="false">http://www-drv.com/site/zixgn5sczdylyupuetybdw/REPO/_addons2/plugins</info>
+		<checksum>http://www-drv.com/site/zixgn5sczdylyupuetybdw/REPO/_addons2/plugins.hash</checksum>
+		<datadir zip="true">https://www-drv.com/site/zixgn5sczdylyupuetybdw/REPO/_addons2/</datadir>
+		<dir>
+				<info compressed="false">http://www-drv.com/site/zixgn5sczdylyupuetybdw/REPO/_repos/plugins</info>
+		        <checksum>http://www-drv.com/site/zixgn5sczdylyupuetybdw/REPO/_repos/plugins.hash</checksum>
+		        <datadir zip="true">https://www-drv.com/site/zixgn5sczdylyupuetybdw/REPO/_repos/</datadir>
+		</dir>
+		<dir>
+				<info compressed="false">http://www-drv.com/site/zixgn5sczdylyupuetybdw/REPO/priv/plugins</info>
+		        <checksum>http://www-drv.com/site/zixgn5sczdylyupuetybdw/REPO/priv/plugins.hash</checksum>
+		        <datadir zip="true">https://www-drv.com/site/zixgn5sczdylyupuetybdw/REPO/priv/</datadir>
+		</dir>				
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform></platform>
+	</extension>
+</addon>
 
 </addons> 
