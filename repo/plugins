@@ -415,7 +415,7 @@
 </addon>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repo.water.3rdparty" name="Unoffical Third Party Repo" version="1.0.5b" provider-name="3rdI">
+<addon id="repo.water.3rdparty" name="Unoffical Third Party Repo" version="1.0.5c" provider-name="3rdI">
 	<extension point="xbmc.addon.repository" name="Unoffical Third Party Repo">
 	<dir>	
 		<info compressed="false">https://ia801502.us.archive.org/17/items/jzsTTjZ73JX9wNypXUpRLeVV/priv/plugins</info>
