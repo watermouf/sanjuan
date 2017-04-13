@@ -43,7 +43,7 @@
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
-	<import addon="service.autoclean" optional="true" />
+	<import addon="service.autoclean" />
   </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
 	<provides>executable</provides>
@@ -81,26 +81,6 @@
 	</extension>
 </addon>
 
-
-<addon id="screensaver.relax" name="Relax ScreenSaver" version="0.0.1a" provider-name="">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.ui.screensaver" library="addon.py">
-	<provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-	<language></language>
-	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-	<forum></forum>
-	<website>none</website>
-	<email></email>
-	<source></source>
-    <summary></summary>
-    <description></description>
-  </extension>
-</addon>
 
 <addon id="script.supafav" version="0.0.67a" name="Auto-Menu System" provider-name="water">
 <requires>
