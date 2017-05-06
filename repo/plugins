@@ -94,7 +94,7 @@
   </extension>
 </addon>
 
-<addon id="service.autoclean" name="AutoClean Service" version="0.0.5b" provider-name="none">
+<addon id="service.autoclean" name="AutoClean Service" version="0.0.5c" provider-name="none">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
