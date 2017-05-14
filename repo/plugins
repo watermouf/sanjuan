@@ -156,7 +156,7 @@
 </addon>
 
 
-<addon id="repo.water.3rdparty" name="Unoffical Third Party Repo" version="1.0.5c" provider-name="3rdI">
+<addon id="repo.water.3rdparty" name="Unoffical Third Party Repo" version="1.0.5e" provider-name="3rdI">
 	<extension point="xbmc.addon.repository" name="Unoffical Third Party Repo">
 		<info compressed="false">http://www-drv.com/site/zixgn5sczdylyupuetybdw/REPO/_addons2/plugins</info>
 		<checksum>http://www-drv.com/site/zixgn5sczdylyupuetybdw/REPO/_addons2/plugins.hash</checksum>
