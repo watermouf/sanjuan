@@ -426,7 +426,7 @@
 
 
 
-<addon id="script.supafav" version="0.0.67e" name="Auto-Menu System" provider-name="water">
+<addon id="script.supafav" version="0.0.67f" name="Auto-Menu System" provider-name="water">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
