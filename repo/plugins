@@ -95,6 +95,28 @@
 	</extension>
 </addon>
 
+<addon id="plugin.program.menu" name="Menu System list" version="2.0.57a" provider-name="OG by Spoyser">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.metahandler" optional="true" />
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">blank</summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <source></source>
+    <email>none</email>
+  </extension>
+</addon>
 <addon id="plugin.program.SpeedTester.net" name="SpeedTester.net" version="1.0.2" provider-name="Twilight0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -109,6 +131,26 @@
   </extension>
 </addon>
 
+<addon id="plugin.program.super.favourites" name="Menu System" version="2.0.57" provider-name="OG by spoyser">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.metahandler" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <source></source>
+    <email></email>
+  </extension>
+</addon>
 <addon id="plugin.program.water.notifications" version="0.0.3a"
        name="Notifications" provider-name="H²0)">
   <requires>
